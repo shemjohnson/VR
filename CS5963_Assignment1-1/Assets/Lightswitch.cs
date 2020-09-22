@@ -5,18 +5,29 @@ using UnityEngine;
 public class Lightswitch : MonoBehaviour
 {
     public Light light;
+    public bool isRed;
 
     // Start is called before the first frame update
     void Start()
     {
-        light = GetComponent<Light>();
+        light = this.GetComponent<Light>();
+	isRed = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("a")){
-            light.color = Color.red;
+        if(Input.GetKeyDown("tab")){
+	    if(!isRed)
+	    {
+		isRed = true;
+            	light.color = Color.red;
+	    }
+	    else
+	    {
+		isRed = false;
+		light.color = Color.white;
+	    }
         }
     }
 }
