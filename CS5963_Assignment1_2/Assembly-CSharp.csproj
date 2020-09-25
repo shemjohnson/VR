@@ -63,6 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Collider2.cs" />
+    <Compile Include="Assets\Collider3.cs" />
+    <Compile Include="Assets\Collider4.cs" />
     <Compile Include="Assets\ElectricBoogaloo.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
