@@ -626,7 +626,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1260627344}
   - component: {fileID: 1260627343}
-  - component: {fileID: 1260627340}
   m_Layer: 0
   m_Name: Collider 1
   m_TagString: Untagged
@@ -634,26 +633,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1260627340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1260627339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6bd5b7a8714a724481b70daaf337ed8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Collider1: {fileID: 1260627339}
-  Collider2: {fileID: 314923711}
-  Collider3: {fileID: 2076518148}
-  Collider4: {fileID: 1333603820}
-  Light1: {fileID: 1196561112}
-  Light2: {fileID: 1277490362}
-  Light3: {fileID: 558236348}
-  Light4: {fileID: 891210525}
 --- !u!65 &1260627343
 BoxCollider:
   m_ObjectHideFlags: 0
