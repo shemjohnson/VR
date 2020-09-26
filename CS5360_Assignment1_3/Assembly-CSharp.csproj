@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D298AD80-D648-207A-153E-9A3A8B1AFDF6}</ProjectGuid>
+    <ProjectGuid>{5151110B-6713-8F3E-F722-7852CB364250}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CameraFlipper.cs" />
+    <Compile Include="Assets\CameraReset.cs" />
     <Compile Include="Assets\Collider2.cs" />
     <Compile Include="Assets\Collider3.cs" />
     <Compile Include="Assets\Collider4.cs" />
@@ -220,6 +222,8 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
+    <Compile Include="Assets\ToggleTracking.cs" />
+    <Compile Include="Assets\VRMirror.cs" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
@@ -796,52 +800,52 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/wanna/VR/CS5963_Assignment1_2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/wanna/VR/CS5360_Assignment1_3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/wanna/VR/CS5963_Assignment1_2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/wanna/VR/CS5360_Assignment1_3/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/wanna/VR/CS5963_Assignment1_2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/wanna/VR/CS5360_Assignment1_3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/wanna/VR/CS5963_Assignment1_2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/wanna/VR/CS5360_Assignment1_3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/wanna/VR/CS5963_Assignment1_2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/wanna/VR/CS5360_Assignment1_3/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/wanna/VR/CS5963_Assignment1_2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/wanna/VR/CS5360_Assignment1_3/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/wanna/VR/CS5963_Assignment1_2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/wanna/VR/CS5360_Assignment1_3/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/wanna/VR/CS5963_Assignment1_2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/wanna/VR/CS5360_Assignment1_3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/wanna/VR/CS5963_Assignment1_2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/wanna/VR/CS5360_Assignment1_3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{A0F55D2F-DDA8-4B82-ECFF-812A0F79EC5E}</Project>
+      <Project>{C340C40E-FA25-4AB5-8AF2-5541E350C0BF}</Project>
       <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{CA760DBB-7C60-8434-3C59-8C19A9BBBF64}</Project>
+      <Project>{A6E3DF4F-6C80-8AAE-2EFC-DAF468463C0B}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{1B09E36D-C194-4749-D1BF-509B6B46888C}</Project>
+      <Project>{107C32E3-76A4-7EAC-24E0-F0BDDEB2C40D}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{C2A41FE8-9FD6-0F58-1FFE-940472719F18}</Project>
+      <Project>{25089051-A670-AB82-DFB3-77E43E991146}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{831C0CF7-CD35-ABD4-0660-96D7B57AEDCC}</Project>
+      <Project>{84491B08-F1E6-6A93-6FD1-C1750782CFAA}</Project>
       <Name>Oculus.Platform</Name>
     </ProjectReference>
   </ItemGroup>

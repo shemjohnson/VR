@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5151110B-6713-8F3E-F722-7852CB364250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.VR", "Oculus.VR.csproj", "{25089051-A670-AB82-DFB3-77E43E991146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Platform", "Oculus.Platform.csproj", "{84491B08-F1E6-6A93-6FD1-C1750782CFAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{28B13D96-A266-D52B-E178-7CEE7193761A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.VR.Scripts.Editor", "Oculus.VR.Scripts.Editor.csproj", "{107C32E3-76A4-7EAC-24E0-F0BDDEB2C40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.VR.Editor", "Oculus.VR.Editor.csproj", "{A6E3DF4F-6C80-8AAE-2EFC-DAF468463C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Platform.Editor", "Oculus.Platform.Editor.csproj", "{C340C40E-FA25-4AB5-8AF2-5541E350C0BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5151110B-6713-8F3E-F722-7852CB364250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5151110B-6713-8F3E-F722-7852CB364250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5151110B-6713-8F3E-F722-7852CB364250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5151110B-6713-8F3E-F722-7852CB364250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25089051-A670-AB82-DFB3-77E43E991146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25089051-A670-AB82-DFB3-77E43E991146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25089051-A670-AB82-DFB3-77E43E991146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25089051-A670-AB82-DFB3-77E43E991146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84491B08-F1E6-6A93-6FD1-C1750782CFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84491B08-F1E6-6A93-6FD1-C1750782CFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84491B08-F1E6-6A93-6FD1-C1750782CFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84491B08-F1E6-6A93-6FD1-C1750782CFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B13D96-A266-D52B-E178-7CEE7193761A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B13D96-A266-D52B-E178-7CEE7193761A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B13D96-A266-D52B-E178-7CEE7193761A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B13D96-A266-D52B-E178-7CEE7193761A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107C32E3-76A4-7EAC-24E0-F0BDDEB2C40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107C32E3-76A4-7EAC-24E0-F0BDDEB2C40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107C32E3-76A4-7EAC-24E0-F0BDDEB2C40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107C32E3-76A4-7EAC-24E0-F0BDDEB2C40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6E3DF4F-6C80-8AAE-2EFC-DAF468463C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E3DF4F-6C80-8AAE-2EFC-DAF468463C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E3DF4F-6C80-8AAE-2EFC-DAF468463C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E3DF4F-6C80-8AAE-2EFC-DAF468463C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C340C40E-FA25-4AB5-8AF2-5541E350C0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C340C40E-FA25-4AB5-8AF2-5541E350C0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C340C40E-FA25-4AB5-8AF2-5541E350C0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C340C40E-FA25-4AB5-8AF2-5541E350C0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

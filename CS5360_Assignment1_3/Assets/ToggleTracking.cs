@@ -25,7 +25,7 @@ public class ToggleTracking : MonoBehaviour
         }
 	if(!isRotTracking)
 	{
-	    this.transform.position += -InputTracking.GetLocalPosition(XRNode.CenterEye);
+	    this.transform.position = -InputTracking.GetLocalPosition(XRNode.CenterEye);
 	    
 	} 
 	if(!isMovTracking)
