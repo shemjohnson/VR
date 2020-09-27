@@ -1,5 +1,1 @@
-sceneSetups:
-- path: Assets/Scenes/CS5360_Assignment1_2.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
+sceneSetups: []
